@@ -1,0 +1,31 @@
+
+#nav-bar{
+    width: 0px;
+    background: black;
+
+}
+#container{
+    display: flex;
+    
+}
+#foto-de-fundo{
+    display: flex;
+    height: 300px;
+    /* flex é usado para deixar o conteudo alinhado na horizontal*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    justify-items: flex-end;
+
+}
+#foto-perfil{
+        background-image: url(../image/foto-perfil.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 1px solid white;
+         width: 180px;
+        height: 180px;
+        align-items: center;
+        border-radius: 50%;
+        align-self: flex-end;
+}
