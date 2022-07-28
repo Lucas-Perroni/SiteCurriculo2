@@ -31,9 +31,10 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+            <div class="container">
+                <i class="fa fa-user text-white" aria-hidden="true" style="margin-right: 5px;"></i>
+                <a class="navbar-brand" href="#">Lucas Perroni Mendes Pereira</a> 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -42,23 +43,23 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: space-around;">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link active" href="#">Escolaridade</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link active" href="#">Recursos Técnicos</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item active dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Dropdown link
+                                Mais
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">Esperiências</a></li>
+                                <li><a class="dropdown-item" href="#">Recomendação</a></li>
+                                <li><a class="dropdown-item" href="#">Contato</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -66,21 +67,78 @@
             </div>
         </nav>
 
-        <div class="container" id="foto-de-fundo" style="background-image: url(image/menufundo.PNG);">
+        <div class="container" id="foto-de-fundo" style="background-image: url(image/menufundo.PNG); border-bottom: 20px solid white;">
             <div id="foto-perfil">
-                <!-- <img class="foto"> src="image/foto-perfil.jpg"
-            </div> -->
+                <!-- <img class="foto"> src="image/foto-perfil.jpg" -->
+            </div> 
         </div>
 
     </header>
 
     <section>
-        <article>
+        <article Nome="sobre">
             <div class="container">
-                <div class="row">
-                    <div class="col-6" style="background: black;">dggfg</div>
-                    <div class="col-3" style="background: rgb(194, 21, 21);">dgdfg</div>
-                    <div class="col-3" style="background: rgb(255, 250, 250);">dfg</div>
+                <div class="row" id="sobre">
+                    <div class="col-6" id="sobre-1">
+                        <h1 style="font-size: x-large; margin-bottom: 20px;">
+                            Lucas Perroni Mendes Pereira
+                        </h1>
+                        <p style="font-size: larger;">
+                        Tenho 21 anos, solteiro e apaixonado por esportes, especificamente futebol e <br>
+                        Desde que eu era pequeno já tinha uma facilidade e um gosto pela tecnologia e foi dessa 
+                                    facilidade que nasceu a vontade de trabalhar nesse ramo que cresce diariamente. <br>
+                        Ser comunicativo, focado e disciplinado são algumas das minhas qualidades. <br>
+                        Me dou muito bem em trabalhos de equipe, sendo proativo e liderando as tarefas. Atualmente faço Curso
+                        Técnico de Informática no Senac Osasco e foco meu desenvolvimento em Linguagem 
+                                    de programação. <br>
+                        Trabalho atualmente na B3 como aprendiz de TI. <br>
+                        Meu maior objetivo é estar acompanhando o mercado com as novas tecnologias que surgem 
+                                    frequentemente e assim, poder me destacar nesse mercado gigantesco e consequentemente, conquistar todos
+                                    os meus sonhos de vida.
+                        </p>
+                    </div>
+                    <div class="col-6" id="sobre-2">
+                        <div id="carousel1">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="padding-top: 10px" style="padding-bottom: 10px">
+                                <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="image/Futebol.PNG" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/Pessoal.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/Pessoal2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                         </div>   
+                    </div>
+        
+                </div>
+            </div>
+        </article>
+        <article Nome="Escolaridade">
+            <div class="container"> 
+                <div class="row" id="escolaridade">
+                    <div class="col-7" id="escolaridade1">
+                        <p style="padding-left: 30px;"> Habilitação Professioal Técnica de Nivel Médio em Informática <br>
+                            Senac -Serviço Nacional de Aprendizagem Comercial -Maio/2021 -Dez/2022;</p>
+                        <p style="padding-left: 30px;"> Ensio Médio completo - 2018; </p>
+                    </div>
+                    <div class="col-5" id="escolaridade2">
+                        <div id="foto-escolaridade">
+                            <img src="image/foto - escolaridade.jpg" style="height: 100%; width: 100%;" >
+                        </div>
+                    </div>
                 </div>
             </div>
         </article>

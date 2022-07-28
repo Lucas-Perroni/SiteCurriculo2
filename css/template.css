@@ -1,9 +1,4 @@
-
-#nav-bar{
-    width: 0px;
-    background: black;
-
-}
+/* css do menu */
 #container{
     display: flex;
     
@@ -16,6 +11,9 @@
     background-size: cover;
     justify-content: center;
     justify-items: flex-end;
+    margin-top: 50px;
+
+
 
 }
 #foto-perfil{
@@ -28,4 +26,47 @@
         align-items: center;
         border-radius: 50%;
         align-self: flex-end;
+        margin-bottom: 2vw;
+        /* vw = view width */
 }
+/* css do sobre */
+#sobre{
+    height: 700px;
+}
+#sobre-1{
+    padding: 20px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #6a596d;
+    color: white;
+}
+#sobre-2{
+    background-color: #6a596d;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#carousel1{
+    height: 95%;
+    width: 95%;
+}
+/* css da escolaridade */
+#escolaridade{
+    height: 400px;
+    background: #5a4a5d;
+}
+#escolaridade1{
+    padding: 20px;
+    padding-top: 50px;
+    background-color: #5a4a5d;
+
+}
+#escolaridade2{
+    background-color: #5a4a5d;
+    padding: 20px;
+    padding-top: 50px;
+    justify-items: center;
+}
+
