@@ -35,7 +35,7 @@
 }
 #sobre-1{
     padding: 20px;
-    padding-top: 50px;
+    padding-top: 80px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -45,7 +45,7 @@
 #sobre-2{
     background-color: #6a596d;
     padding: 20px;
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 50px;
 }
 #carousel1{
@@ -59,7 +59,7 @@
 }
 #escolaridade1{
     padding: 20px;
-    padding-top: 50px;
+    padding-top: 80px;
     background-color: #5a4a5d;
     justify-items: center;
 
@@ -67,26 +67,26 @@
 #escolaridade2{
     background-color: #5a4a5d;
     padding: 20px;
-    padding-top: 50px;
+    padding-top: 80px;
     justify-items: center;
 }
 /* css dos recursos tecnicos */
 #recursostecnicos{
-    min-height: 600px;
+    min-height: 800px;
     background: #4b3b4e;
 }
 #recursostecnicos2{
     padding: 20px;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 /* css da experiencia */
 #experiencias{
-    min-height: 600px;
+    min-height: 700px;
     background: #3b2c3e;
 }
 #experiencias2{
     padding: 20px;
-    padding-top: 80px;
+    padding-top: 90px;
 }
 /* css da recomendação */
 #recomendacao{
@@ -95,6 +95,6 @@
 }
 /* css do contato */
 #contato{
-    min-height: 600px;
+    min-height: 800px;
     background: hsl(288, 24%, 8%);
 }
